@@ -10,7 +10,7 @@ const TableCliente = () => {
     useEffect(() =>{
         const fetchUsersList = async () => {
             const {data} = await axios(
-              "http://132.226.214.88:8080/cliente" 
+              "http://132.226.215.159:8080/tarea" 
             );
             setUsers({documents:data});
             console.log(data);
